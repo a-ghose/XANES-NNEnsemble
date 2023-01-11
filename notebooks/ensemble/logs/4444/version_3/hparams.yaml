@@ -1,0 +1,11 @@
+activation: relu
+batch_norm: true
+before_latent_activation: sigmoid
+criterion: mse
+dropout: 0.0
+hidden_sizes:
+- 39
+- 40
+input_size: 155
+last_batch_norm: false
+output_size: 200

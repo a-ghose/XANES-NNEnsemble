@@ -1,0 +1,13 @@
+activation: relu
+batch_norm: true
+criterion: mse
+dropout: 0.0
+input_size: 155
+interior_architecture:
+- 300
+- 250
+last_activation: softplus
+output_size: 200
+plateau_scheduler_factor: 0.95
+plateau_scheduler_min_lr: 1.0e-07
+plateau_scheduler_patience: 100

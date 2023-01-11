@@ -1,0 +1,32 @@
+activation: relu
+batch_norm: true
+criterion: mse
+dropout: 0.0
+input_size: 155
+interior_architecture:
+- !!python/object/apply:numpy.core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - i8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    GwAAAAAAAAA=
+- !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    EAAAAAAAAAA=
+last_activation: softplus
+output_size: 200
+plateau_scheduler_factor: 0.95
+plateau_scheduler_min_lr: 1.0e-07
+plateau_scheduler_patience: 100
